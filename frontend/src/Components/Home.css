@@ -1,0 +1,88 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(187, 186, 186);
+    margin: 0 auto;
+    padding: 10px 20px;
+    align-items: center;
+    width: 1050px;
+}
+
+h1 {
+    color: rgb(114, 69, 1);
+    margin-top: 0;
+    margin-bottom: .5em;
+    text-align: center;
+}
+p{
+    color: rgb(114, 69, 1);
+}
+
+main {
+    padding: 1em 2em;
+}
+
+label {
+    float: left;
+    width: 150px;
+    text-align: left;
+    color: rgb(114, 69, 1);
+    font-weight: bold;
+}
+
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+
+legend, a{
+    width: 30%;
+    background-color: rgb(114, 69, 1);
+    color: white;
+    border-radius: 50px 50px ;
+    padding: 7.1px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+a{
+    padding: 10px 10px;
+    margin: 8px;
+}
+
+section {
+ 
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 50px 60px;
+    margin: 20px;
+}
+
+
+.data{
+    display: flex;
+    margin: 5px;
+    flex-direction: row;
+}
+.data>h5{
+    margin-right: 5px;
+}
+
+.data-container{
+    width: 100%;
+    display: flex;
+}
+
+
+table, th, td {
+    border:1px solid black;
+    padding: 5px;
+  }
+
+  table{
+      width: 100%;
+  }
+
+  .section-item{
+      margin-top: 50px;
+  }
