@@ -1,4 +1,4 @@
-# ReactApp
+# Student Form
 Student Form using React.js
 
 Hi,
